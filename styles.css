@@ -48,6 +48,16 @@ input[type="radio"]:focus, input[type="checkbox"]:focus {
     width: 20px;
     
     }
-input[type="submit"]:hover
-    box-shadow: black;
+input[type="submit"] {
+    background-color: #28a74663;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+    background-color: #218838;
 }
