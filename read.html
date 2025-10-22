@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>read html</title>
+</head>
+<body>
+  
+     <form action="/submit" method="post">
+     <label for="Name">Name</label>
+     <input type="text" id="Name" name="Name" 
+     placeholder="Vista" required="">
+
+     <label for="Email">Email</label>
+     <input type="text" id="Email" name="Email" 
+     placeholder="example@gmail.com" required="">
+
+     <fieldset>
+        <legend>Susbsription</legend>
+        <label>
+            <input type="radio" name="plan" value="free"
+            checked>Free
+        </label>
+        <label>
+         <input type="radio" name="plan" value="free"
+            checked>Pro   
+        </label>
+    </fieldset>
+
+    <label for="notes">Notes</label>
+    <textarea id="notes" name="notes" rows="5"></textarea>
+    <button type="submit">Send</button>
+    </form>
+  
+</body>
+</html>
