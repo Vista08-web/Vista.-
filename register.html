@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+<link rel="stylesheet" href="styles.css">
+<script src="app.js"></script>
+</head>
+<body>
+ <center> <h2>Register for Vista</h2></center>
+ <table align="center" border="0">
+    <caption><b>Apllicant Information Only</b></caption>
+    <tr>
+        <td>Name:</td>
+        <td><input type="text" name="name" placeholder="Vista" required=""></td>
+    </tr>
+
+    <tr>
+        <td>Email:</td>
+        <td><input type="email" name="email" placeholder="example@gmail.com" required=""</td>
+    </tr>
+
+    <tr>
+        <td>Password:</td>
+        <td><input type="password" required
+        placeholder="Password" required=""</td>
+    </tr>
+
+    <tr>
+        <td>Confirm Password:</td>
+        <td><input type="password"name="Confirm Password"
+        placeholder="Confirm Password" required=""</td>
+    </tr>
+
+    <tr>
+        <td>Education Level:</td>
+        <td><select name="Level" required>
+            <option>Select</option>
+            <option>UNIVERSITY</option>
+            <option>COLLEGE</option>
+            <option>HIGH SCHOOL</option>
+            <option>PRIMARY SCHOOL</option>
+        </td>    
+    </tr>
+    
+     <tr>
+        <td>Gender:</td>
+        <td>
+            <label><input type="radio" name="Female" value="Male" checked>Male </input></label>
+            </td>
+        
+        <td>
+            <label><input type="radio" name="Female" value="Female" required checked>Female</input></label>
+            </td>
+    </tr>
+
+
+ </table>
+  <br/> 
+    <div class="form-group" align="center">
+        <input type="submit" value="Register" required>
+    <input type="reset" value="Reset" required>
+</div>
+</body>
+</html>
