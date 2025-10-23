@@ -1,0 +1,140 @@
+.subscribe-button{
+        background-color:rgb(200, 0, 0);
+        border:none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 2px;
+        cursor: pointer;
+        color: white;
+        margin-right: 32px;
+        transition: opacity 0.3s, background-color 0.15s, color 0.15s;
+        box-shadow: 10px 10px 5px grey;
+        box-decoration-break: clone;
+        box-sizing: border-box;
+      }
+
+      .join-button {
+        background-color:white;
+        border-color: blue;
+        border-style: solid;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 2px;
+        cursor: pointer;
+        color: blue;
+        transition: opacity 0.3s, background-color 0.15s, color 0.15s;
+        box-shadow: 10px 10px 5px grey;
+      }
+      .tweet-button {
+        background-color:rgb(29, 161, 242);
+        border:none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 18px;
+        cursor: pointer;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 32px;
+        transition: opacity 0.3s, background-color 0.15s, color 0.15s;
+        box-shadow: 10px 10px 5px grey;
+      }
+      .add-to-cart-button {
+        background-color:rgb(229, 225, 16);
+        border:none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 18px;
+        cursor: pointer;
+        color: black;
+        font-size: 15px;
+        transition: opacity 0.3s, background-color 0.15s, color 0.15s;
+      }
+      .buy-now-button {
+        background-color:rgb(222, 144, 9);
+        border:none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 18px;
+        cursor: pointer;
+        color: black;
+        font-size: 15px;
+        margin-left: 32px;
+        transition: opacity 0.3s, background-color 0.15s, color 0.15s;
+      }
+      .subscribe-button:hover{
+        background-color:rgb(150, 0, 0);
+        opacity: 0.9;
+        color: bisque;
+        font-weight: 700;
+      }
+      .join-button:hover{
+        background-color:blue;
+        color: white;
+        opacity: 0.9;
+        align-items: center;
+        font-weight: 700;
+        position: relative;
+        overflow: hidden;
+      }
+      .tweet-button:hover{
+        background-color:rgb(26, 145, 218);
+        opacity: 0.9;
+        color: black;
+        padding-left: 20px;
+        scroll-padding: 40px;
+        padding-bottom: 20px;
+      } 
+      .back-to-amazon:hover {
+        opacity: 0.6;
+        color: rgba(20, 24, 131, 0.671); 
+      }
+
+      .on-off-button  {
+        position: relative;
+        border-radius: inherit;
+        padding: 1em 5em;
+        background: linear-gradient(135deg, #e6e6e6, #b4b4b4);
+        clip-path: insert(0 round 100em);
+        overflow: hidden;
+        transition: clip-path 0.25s ease, box-shadow 0.3s ease, 
+        transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+        box-shadow: inset 0 2px 5px rgba(255, 255, 255, 0.6),
+                    inset 0 -2px 5px rgba(0, 0, 0, 0.2),
+                    0 5px 15px rgba(0, 0, 0, 0.3);
+      }
+      .vista-comment {
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: italic;
+        text-align:left;
+        color: #333;
+       width: 300px;
+        line-height: 24px;
+      }
+      .vista-entity {
+        font-family: arial;
+        font-size: 14px;
+        color: #666;
+      }
+
+      .cube {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        transform-style: preserve-3d;
+        animation:cubeRotate 8s infinite linear;
+      }
+
+      
