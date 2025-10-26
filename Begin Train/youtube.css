@@ -1,0 +1,18 @@
+.card-header {
+  color:white;
+  background-color:aqua;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.card-footer {
+ color:white;
+  background-color:aqua;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: right; 
+}
+  
+
+
+
